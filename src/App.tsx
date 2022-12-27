@@ -3,24 +3,22 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  const dog = "some string";
+  const digitalClock = "some string";
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <div className="Dog">"woof"</div>
-        <div>{dog}</div>
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <div className="Dog">Digital Clock</div>
+        <div>{digitalClock}</div>
+        <p>this is where I put my app</p>
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          className="Git-link"
+          href="https://github.com/zajonesck"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          My GitHub
         </a>
       </header>
     </div>
