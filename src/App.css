@@ -23,6 +23,11 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.Digital {
+  background-color: #282c34;
+  color: white;
+  font-size: calc(10px + 2vmin);
+}
 
 .Git-link {
   color: #61dafb;

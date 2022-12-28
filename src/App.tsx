@@ -1,17 +1,15 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-
+import Clock from "./Clock";
 function App() {
-  const digitalClock = "some string";
-
   return (
     <div className="App">
+      <Clock></Clock>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <div className="Dog">Digital Clock</div>
-        <div>{digitalClock}</div>
-        <p>this is where I put my app</p>
+        <p>My first React build</p>
         <a
           className="Git-link"
           href="https://github.com/zajonesck"
