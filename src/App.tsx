@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Clock from "./Clock";
 function App() {
@@ -7,7 +6,6 @@ function App() {
     <div className="App">
       <Clock></Clock>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <div className="Dog">Digital Clock</div>
         <p>My first React build</p>
         <a

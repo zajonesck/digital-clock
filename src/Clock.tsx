@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 function Clock() {
-  const [clockState, setClockState] = useState();
+  const [clockState, setClockState] = useState<string | undefined>();
 
   useEffect(() => {
     setInterval(() => {
